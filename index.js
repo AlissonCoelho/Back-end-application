@@ -8,5 +8,5 @@ function main() {
     console.log('MySQL conectado');
     Tables.init(connection);
     const app = configExpress;
-    app.listen(8000, () => console.log('Server running on port 8000'))
+    app.listen(8000, () => console.log('Server running on port 8000'));
 }
